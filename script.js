@@ -49,7 +49,7 @@ $(document).ready(function () {
 function showPass(form , e){
   e.preventDefault();
   var pass = form.pwd.value;
-  var real_pass = "k";
+  var real_pass = "dione";
   if(pass == real_pass)
   {
       window.location.replace("video.html");
