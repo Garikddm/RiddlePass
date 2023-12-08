@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>ArkhamCare</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @font-face { font-family: Kommon-Grotesk; src: url('font/Kommon Grotesk Com Regular.otf'); } 
+        @font-face { font-family: Kommon-Grotesk-Thin; src: url('font/Kommon Grotesk Com Thin.otf'); } 
+        @font-face { font-family: Kommon-Grotesk-Light; src: url('font/Kommon Grotesk Con Light.otf'); }
+        @font-face { font-family: itc-benguiat-condensed; src: url('font/ITC Benguiat Condensed Medium.otf'); }
+        @font-face { font-family: Lexeda; src: url('font/LexendExa-SemiBold.ttf'); }
+        @font-face { font-family: Chakra; src: url('font/ChakraPetch-SemiBold.ttf'); }
+        @font-face { font-family: Cutive; src: url('font/Cutive-Regular.ttf'); }
+    </style>
 </head>
-<body>
-    <div id="password_bl">
-    <p>Enter the password: </p>
-    <form onSubmit = "showPass(this , event)">
-        <input type="password" id="password" placeholder="password" name="pwd">
-        <input type = "submit" id = "submit" value = "OK">
-    </form>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+<body id="index">
+    <p class="predislovie">То, что вы сейчас увидите, долгое время находилось в архивах
+        Лечебницы Аркхэм и не предназначалось для всеобщего обозрения.
+        После недавних событий, записи стали доступны всем. У вас все еще
+        есть шанс избежать ознакомления со следующими двумя файлами. Если
+        вы решили остаться, прокрутите файл вниз и узнайте историю двух
+        заключенных Лечебницы Аркхэм.</p>
+    <div class="blank_space"></div>
+    <a href="first.html" class="links">
+        Дело №1: Джонатан Крейн
+    </a>
+    <a href="second.html" class="links" id="last">
+        Дело №2: Лазло Валентин   
+     </a>
     <script src="script.js"></script>
 </body>
+
 </html>
