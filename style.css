@@ -54,7 +54,10 @@ h3{
 
 }
 
-#last{
+#middle, #last{
     margin-top: 30px;
-    margin-bottom: 40px;
+}
+
+#last{
+    margin-bottom: 30px;
 }
